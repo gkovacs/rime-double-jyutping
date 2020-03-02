@@ -26,7 +26,7 @@ Then install `gkovacs/rime-double-jyutping` using plum:
 bash rime-install gkovacs/rime-double-jyutping
 ```
 
-Finally edit `default.custom.yaml` and add `td_double_jyutping` to the schema list:
+Finally edit `default.custom.yaml` and add `double_jyutping` to the schema list:
 
 ```bash
 patch:
