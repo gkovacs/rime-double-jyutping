@@ -292,8 +292,13 @@ translator:
 punctuator:
   import_preset: default
 
+ascii_composer:
+  switch_key:
+    Shift_L: noop
+    Shift_R: noop
+
 key_binder:
-  import_preset: default
+  #import_preset: default
   bindings:
     - {accept: "Control+Shift+f", toggle: zh_simp, when: always}
     - {accept: "Control+Shift+F", toggle: zh_simp, when: always}
