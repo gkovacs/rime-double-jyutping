@@ -31,7 +31,7 @@ Finally edit `default.custom.yaml` and add `td_double_jyutping` to the schema li
 ```bash
 patch:
   schema_list:
-    - schema: international
+    - schema: double_jyutping
 ```
 
 Now reload RIME and it should appear under your layouts.
