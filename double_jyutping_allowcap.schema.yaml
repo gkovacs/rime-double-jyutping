@@ -2,7 +2,7 @@
 # encoding: utf-8
 
 schema:
-  schema_id: double_jyutping
+  schema_id: double_jyutping_allowcap
   name: "粵雙拼"
   version: "20180428"
   author:

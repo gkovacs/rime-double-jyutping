@@ -13,7 +13,6 @@ schema:
     提供多種字體轉換方案
   dependencies:
     - leimaau_jyutping
-    - leimaau_jyutping.cangjie5
 
 switches:
   - name: ascii_mode
@@ -190,11 +189,10 @@ menu:
   page_size: 9
 
 translator:
-  dictionary: leimaau_jyutping.cangjie5
+  dictionary: leimaau_jyutping
   spelling_hints: 9
-  prism: double_jyutping_cangjie5
+  prism: double_jyutping
   preedit_format:
-    - 'xlit ABCDEFGHIJKLMNOPQRSTUVWXYZ 日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜重'
     - xform/(^|[ '])u/$1G/
     - xform/(^|[ '])y/$1Q/
     - xform/(^|[ '])aa/$1Ñ/ # aa => ng
