@@ -12,7 +12,7 @@ schema:
     聲調輸入 q平 v上 x去 （雙擊爲陽調）
     提供多種字體轉換方案
   dependencies:
-    - leimaau_jyutping
+    - jyut6ping3
 
 switches:
   - name: ascii_mode
@@ -186,7 +186,7 @@ menu:
   page_size: 9
 
 translator:
-  dictionary: leimaau_jyutping
+  dictionary: jyut6ping3
   spelling_hints: 9
   prism: double_jyutping
   preedit_format:
